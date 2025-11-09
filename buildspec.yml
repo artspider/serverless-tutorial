@@ -9,5 +9,6 @@ phases:
   build:
     commands:
       - echo "Starting serverless deployment"
+      - serverless login
       - serverless deploy --stage $ENVIRONMENT --region $REGION --conceal --verbose
       - echo "Finish deployment"
