@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       python: 3.12
     commands:
-      - npm install --silent --np-progress -g serverless
+      - npm install --silent --np-progress -g serverless v3
   build:
     commands:
       - echo "Starting serverless deployment"
