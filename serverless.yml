@@ -11,9 +11,15 @@ provider:
   # domain: api.example.com
 
 functions:
-  hello:
-    handler: handler.hello
+  hi:
+    handler: hi.hi
     events:
       - httpApi:
-          path: /
+          path: /hi
+          method: get
+  bye:
+    handler: bye.bye
+    events:
+      - httpApi:
+          path: /bye
           method: get

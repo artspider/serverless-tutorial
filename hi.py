@@ -1,9 +1,9 @@
 import json
 
 
-def hello(event, context):
+def hi(event, context):
     body = {
-        "message": "Go Serverless v4.0! Your function executed successfully!!git add ."
+        "message": "Hi! Your function executed successfully!!."
         "",
     }
 
